@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Arial', Helvetica, sans-serif;
 }
+.container{
+    height: 100%;
+}
 /* header */
 .header{
     
@@ -108,7 +111,7 @@
 /* Footer section strt from here */
 .last{
     height: 40px;
-    margin-top: 215px;
+    margin-top: 280px;
     background-color:  #f0f0f1;
     font-size: 15px;
 
