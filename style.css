@@ -110,8 +110,8 @@
 
 /* Footer section strt from here */
 .last{
-    height: 40px;
-    margin-top: 400px;
+    height: 35px;
+    /* margin-top: 280px; */
     background-color:  #f0f0f1;
     font-size: 15px;
 
@@ -123,6 +123,7 @@
 }
 .last p{
 
+    margin-top: -3px;
     /* color: rgb(122, 122, 122) ; */
     font-size: larger;
     padding: 0px 20px;
@@ -134,23 +135,34 @@ body{
     display: flex;
     flex-direction:column ;
 }
+footer{
+  
+}
+
+
+
 .footer{
+    padding-top: 6px;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
 
    background-color:  #f0f0f1;
     font-size: 15px;
     color: #70757a;
-}
-
-
-.footer{
-    height: 40px;
+    /* height: 40px; */
     /* margin-top: 2px; */
-    display: flex;
+    /* display: flex; */
     width: 100%;
     /* border: 1px solid black; */
     /* background-color: rgb(231, 228, 228); */
     font-family: arial,sans-serif;
     padding: 10px;
+}
+.bottombar{
+    display:flex ;
+    padding: 10px;
+    padding-top: 10px;
 }
 
 .left-ft{
@@ -244,7 +256,7 @@ ul {
         border: none;
         outline:none;
         cursor: pointer;
-        font-size: 11px;
+        font-size: 10px;
     }
     .box {
         width: 100%;
@@ -262,27 +274,30 @@ ul {
     .box p{
         margin-top: -7px;
         color: rgb(122, 122, 122) ;
-        font-size: 11px;
+        font-size: 10px;
         
     }
     
     .last{
-        margin-top: 220px;
-        background-color: rgb(231, 228, 228);
+        /* margin-top: 220px; */
+        height: 15px;
+        
+        background-color: #f0f0f1;
     }
     .last p{
         color: rgb(122, 122, 122) ;
-        font-size: 8px;
+        font-size: 7px;
+        margin-top: -8px;
         padding: 0px 10px;
     }
     
     
     .footer{
-        margin-top: 1px;
-        display: flex;
+        /* margin-top: 1px; */
+        /* display: flex; */
         width: 100%;
         /* border: 1px solid black; */
-        background-color: rgb(231, 228, 228);
+        background-color: #f0f0f1;
     }
     
     .left-ft{
@@ -295,9 +310,9 @@ ul {
         padding-left:2px;
         padding-right: 2px;
         
-        background-color: rgb(231, 228, 228);
+        background-color: #f0f0f1;
         color: rgb(122, 122, 122) ;
-        font-size: 8px;
+        font-size: 7px;
     }
     .right-ft{
         width: 20%;
@@ -314,9 +329,9 @@ ul {
     padding-left:2px;
     padding-right: 2px;
     
-    background-color: rgb(231, 228, 228);
+    background-color: #f0f0f1;
     color: rgb(122, 122, 122) ;
-    font-size: 8px;
+    font-size: 7px;
     }
 
     
@@ -392,22 +407,24 @@ ul {
         
     }
     .last{
-        margin-top: 220px;
-        background-color: rgb(231, 228, 228);
+        /* margin-top: 220px; */
+        height: 20px;
+        background-color: #f0f0f1;
     }
     .last p{
+        margin-top: -5px;
         color: rgb(122, 122, 122) ;
-        font-size: x-small;
+        font-size: xx-small;
         padding: 0px 10px;
     }
     
     
     .footer{
         margin-top: 1px;
-        display: flex;
+        /* display: flex; */
         width: 100%;
         /* border: 1px solid black; */
-        background-color: rgb(231, 228, 228);
+        background-color: #f0f0f1;
     }
     
     .left-ft{
@@ -420,9 +437,9 @@ ul {
         padding-left:6px;
         padding-right: 6px;
         
-        background-color: rgb(231, 228, 228);
+        background-color:#f0f0f1;
         color: rgb(122, 122, 122) ;
-        font-size: x-small;
+        font-size: xx-small;
     }
     .right-ft{
         width: 20%;
@@ -439,9 +456,9 @@ ul {
     padding-left:6px;
     padding-right: 6px;
     
-    background-color: rgb(231, 228, 228);
+    background-color: #f0f0f1;
     color: rgb(122, 122, 122) ;
-    font-size: x-small;
+    font-size: xx-small;
     }
     ul {
         display:flex
@@ -508,22 +525,24 @@ ul {
         
     }
     .last{
-        margin-top: 400px;
-        background-color: rgb(231, 228, 228);
+        /* marg/in-top: 400px; */
+        height: 23px;
+        background-color: #f0f0f1;
     }
     .last p{
+        margin-top: -3px;
         color: rgb(122, 122, 122) ;
-        font-size: small;
-        padding: 0px 12px;
+        font-size: x-small;
+        padding: 0px 13px;
     }
     
     
     .footer{
         margin-top: 1px;
-        display: flex;
+        /* display: flex; */
         width: 100%;
         /* border: 1px solid black; */
-        background-color: rgb(231, 228, 228);
+        background-color:#f0f0f1;
     }
     
     .left-ft{
@@ -538,7 +557,7 @@ ul {
         
         background-color: rgb(231, 228, 228);
         color: rgb(122, 122, 122) ;
-        font-size: small;
+        font-size: x-small;
     }
     .right-ft{
         width: 20%;
@@ -557,7 +576,7 @@ ul {
     
     background-color: rgb(231, 228, 228);
     color: rgb(122, 122, 122) ;
-    font-size: small;
+    font-size: x-small;
     }
     ul {
         display:flex
@@ -624,22 +643,24 @@ ul {
         
     }
     .last{
-        margin-top: 220px;
-        background-color: rgb(231, 228, 228);
+        /* margin-top: 220px; */
+        height: 28px;
+        background-color: #f0f0f1;
     }
     .last p{
+        margin-top: -4px;
         color: rgb(122, 122, 122) ;
-        font-size: large;
+        font-size: small;
         padding: 0px 12px;
     }
     
     
     .footer{
         margin-top: 1px;
-        display: flex;
+        /* display: flex; */
         width: 100%;
         /* border: 1px solid black; */
-        background-color: rgb(231, 228, 228);
+        background-color:#f0f0f1;
     }
     
     .left-ft{
@@ -652,9 +673,9 @@ ul {
         padding-left:8px;
         padding-right: 8px;
         
-        background-color: rgb(231, 228, 228);
+        background-color:#f0f0f1;
         color: rgb(122, 122, 122) ;
-        font-size: large;
+        font-size: small;
     }
     .right-ft{
         width: 20%;
@@ -671,9 +692,9 @@ ul {
     padding-left:8px;
     padding-right: 8px;
     
-    background-color: rgb(231, 228, 228);
+    background-color: #f0f0f1;
     color: rgb(122, 122, 122) ;
-    font-size: large;
+    font-size: small;
     }
     ul {
         display:flex
